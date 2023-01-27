@@ -1,0 +1,172 @@
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(135deg,rgb(134, 157, 198), rgb(104, 137, 204));
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+/*---------PAINEL---------*/
+.painel {
+    position: fixed;
+    width: 220px;
+    height: 380px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 5px 20px 10px rgba(1, 4, 10, 0.39);
+    border-radius: 15px; 
+    background-color: white;  
+}
+
+.qrcode {
+    width: 100%;
+}
+.apresentacao {
+    padding: 10px 10px 7px 10px;
+}
+.apresentacao h1{
+    font-size: 13px;
+    text-align: center;
+}  
+.apresentacao p {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution { 
+    font-size: 10px; 
+    text-align: center; 
+    line-height: 2px;
+}
+.attribution a { 
+    color: rgb(62, 82, 163); 
+}
+
+/*---------CIRCULOS-------------*/
+.borda-tracejada {
+    border: 3px dashed rgba(21, 12, 150, 0.2);
+    border-radius: 100%;
+    width: 600px;
+    height: 600px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -100;
+}
+.circulo-maior {
+    background: rgba(19, 48, 212, 0.2);
+    border-radius: 100%;
+    width: 600px;
+    height: 600px;
+    position: fixed;
+    top: 40%;
+    left: -20%;
+    z-index: -100;
+}
+.cinturao-maior {
+    border: 5px solid rgba(19, 48, 212, 0.2);
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    top: -20%;
+    left: 10%;
+    border-radius: 100%;
+    z-index: -100;
+}
+.circulo-menor {
+    background: rgb(19, 48, 212, 0.2);
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    top: -40%;
+    right: -10%;
+    border-radius: 100%;
+    z-index: -100;
+}
+.cinturao-menor {
+    border: 5px solid rgba(19, 48, 212, 0.2);
+    position: fixed;
+    width: 350px;
+    height: 350px;
+    top: 50%;
+    right: 4%;
+    border-radius: 100%;
+    z-index: -100;
+}
+
+/*-------------RESPONSIVIDADE-----------------*/
+
+@media screen and (max-width: 375PX) {
+/*-------PAINEL-------*/
+    .painel {
+        width: 80vw;
+        height: 60%;
+    }
+    .apresentacao h1{
+        font-size: 16px;
+        text-align: center;
+    }  
+
+    .apresentacao p {
+        font-size: 13px;
+        text-align: center;
+    }
+    .attribution { 
+        font-size: 10px; 
+        text-align: center; 
+        line-height: 2px;
+    }
+
+    /*---------CÍRCULOS----------*/
+    .borda-tracejada {
+        width: 100px;
+        height:100px;
+        position: fixed;
+        top: 10%;
+        left: 80%;
+    }
+    .circulo-maior {
+        background: rgba(19, 48, 212, 0.1);
+        border-radius: 50%;
+        width: 400px;
+        height: 400px;
+        position: fixed;
+        top: 80%;
+        left: -40%;
+    }
+    .circulo-menor {
+        background: rgba(19, 48, 212, 0.1);
+        position: fixed;
+        width: 290px;
+        height: 290px;
+        top: -10%;
+        right: -10%;
+        border-radius: 100%;
+    }
+    .cinturao-maior {
+        border: 5px solid rgba(19, 48, 212, 0.1);
+        position: fixed;
+        width: 300px;
+        height: 300px;
+        top: -20%;
+        left: -30%;
+        border-radius: 100%;
+    }
+    .cinturao-menor {
+        border: 5px solid rgba(19, 48, 212, 0.1);
+        position: fixed;
+        width: 200px;
+        height: 200px;
+        top: 70%;
+        right: -20%;
+        border-radius: 100%;
+    }
+
+}
