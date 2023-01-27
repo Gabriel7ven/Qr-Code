@@ -103,7 +103,7 @@ body {
 
 /*-------------RESPONSIVIDADE-----------------*/
 
-@media screen and (max-width: 375PX) {
+@media screen and (max-width: 380px) {
 /*-------PAINEL-------*/
     .painel {
         width: 80vw;
