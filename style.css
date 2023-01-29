@@ -39,14 +39,6 @@ body {
     font-size: 13px;
     text-align: center;
 }
-.attribution { 
-    font-size: 10px; 
-    text-align: center; 
-    line-height: 2px;
-}
-.attribution a { 
-    color: rgb(62, 82, 163); 
-}
 
 /*---------CIRCULOS-------------*/
 .borda-tracejada {
