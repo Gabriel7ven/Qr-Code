@@ -98,8 +98,8 @@ body {
 @media screen and (max-width: 375px) {
 /*-------PAINEL-------*/
     .painel {
-        width: 250px;
-        height: 400px;
+        width: 80vw;
+        height: 60%;
     }
     .apresentacao h1{
         font-size: 15px;
