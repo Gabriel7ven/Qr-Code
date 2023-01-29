@@ -99,7 +99,7 @@ body {
 /*-------PAINEL-------*/
     .painel {
         width: 80vw;
-        height: 60%;
+        height: 120vw;
     }
     .apresentacao h1{
         font-size: 15px;
