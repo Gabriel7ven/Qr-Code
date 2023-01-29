@@ -95,11 +95,11 @@ body {
 
 /*-------------RESPONSIVIDADE-----------------*/
 
-@media screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
 /*-------PAINEL-------*/
     .painel {
         width: 80vw;
-        height: 120vw;
+        height: 55%;
     }
     .apresentacao h1{
         font-size: 15px;
