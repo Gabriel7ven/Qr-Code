@@ -1,17 +1,21 @@
-Olá, Bem-Vindo ao README do meu projeto.
+## Olá, Bem-Vindo ao README do meu projeto.
+![image](https://github.com/Gabriel7ven/Qr-Code/assets/114369951/cbe0a68b-fe9b-4afe-9ee0-e97befa8364f)
 
-Visão Geral:
+### Visão Geral:
 Este é o meu primeiro projeto que consiste na resolução de um desafio proposto pelo site: https://www.frontendmentor.io/.
 
-Construção:
+### Construção:
 Foi feito apenas com HTML e CSS. Exceção: Imagem do qr-code azul.
 
-Aprendizado:
+### Aprendizado:
 - Fortaleci meus conhecimentos sobre a utilização de divs e classes.
 - Alinhamento de itens no centro da tela com facilidade.
 
-Recursos úteis:
+### Recursos úteis:
 O site costuma disponibilizar a imagem quadrada sem bordas arredondadas no plano FREE.
 Utilizei um programa open source de desenhos vetoriais, o INKSCAPE, para arrendondar as bordas.
+
+### Visualização demo: https://gabriel7ven.github.io/Qr-Code/
+
 
 -----------------------------------------------------------------------------------------------------------------
