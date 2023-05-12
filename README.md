@@ -8,10 +8,7 @@ Foi feito apenas com HTML e CSS. Exceção: Imagem do qr-code azul.
 
 Aprendizado:
 - Fortaleci meus conhecimentos sobre a utilização de divs e classes.
-- Alinhamento de itens no centro da tela com facilidade
-- [Nova habilidade] Desenho de círculos com CSS
-- [Novo habilidade] Como utilizar a propriedade 'z-index'
-- [Novo habilidade] Como trabalhar com a propriedade 'transform' para alinhar elementos
+- Alinhamento de itens no centro da tela com facilidade.
 
 Recursos úteis:
 O site costuma disponibilizar a imagem quadrada sem bordas arredondadas no plano FREE.
